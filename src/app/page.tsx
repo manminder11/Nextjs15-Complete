@@ -54,3 +54,15 @@ const Page = () => {
 export default Page;
 
 // i have done here push back refresh on click
+
+// example 
+// refresh
+// code       
+// const refreshPage = () => {
+//   router.reload();
+// };
+
+// Usage example
+// <button type="button" onClick={refreshPage}>
+//   Refresh Page
+// </button>
