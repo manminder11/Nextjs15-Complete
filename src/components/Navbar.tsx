@@ -4,15 +4,19 @@ const Navbar = () => {
   return (
     <nav>
       <ul>
-        <div>
+        <li>
           <h1>Logo</h1>
-        </div>
+        </li>
 
-        <div>
+        <li>
           <Link href="/about">about</Link>
+        </li>
+        <li>
           <Link href="/users">users</Link>
+        </li>
+        <li>
           <Link href="/portfolio">portfolio</Link>
-        </div>
+        </li>
       </ul>
     </nav>
   );
