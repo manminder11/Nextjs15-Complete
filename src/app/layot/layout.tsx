@@ -6,9 +6,6 @@ const Layout = ({ children }: { children: ReactNode }) => {
     <div>
       <ul>
         <li>
-          <Link href="./layot">this layout used here</Link>
-        </li>
-        <li>
           <Link href="./layot/laot">this layout used here</Link>
         </li>
       </ul>
