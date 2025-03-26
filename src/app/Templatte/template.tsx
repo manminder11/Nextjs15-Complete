@@ -14,11 +14,11 @@ const Layout = () => {
         onChange={(e) => setName(e.target.value)}
       />
       <br />
-      <Link className="bg-teal-500" href="/Template/revenue">
+      <Link className="bg-teal-500" href="/Templatte/revenue">
         revenue
       </Link>{" "}
       <br />
-      <Link className="bg-teal-500" href="/Template/revenue/stats">
+      <Link className="bg-teal-500" href="/Templatte/revenue/stats">
         stats
       </Link>
     </div>
