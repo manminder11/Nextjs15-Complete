@@ -1,4 +1,6 @@
 "use client";
+import Image from "next/image";
+import Reddead from "../../public/rdr2.jpg";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
@@ -22,7 +24,14 @@ const Page = () => {
 
   return (
     <div>
-      <Navbar />
+      <Image src={Reddead} alt="Reddead" /> {/* image internal */}
+      <br />
+      <Image
+        src="https://wallpapercave.com/wp/wp2452332.jpg"
+        alt="another rdr image but now it is external"
+        height={500}
+        width={500}
+      />
       <p className="text-4xl">Manminder singh </p> <br />
       <Link href="/portfolio">Portfolio</Link>
       <br />
@@ -47,6 +56,7 @@ const Page = () => {
       <button type="button" onClick={() => f("UR/four")}>
         refreh on click
       </button>
+      <Navbar />
     </div>
   );
 };
