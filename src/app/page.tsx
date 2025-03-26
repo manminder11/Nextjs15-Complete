@@ -76,3 +76,7 @@ export default Page;
 // <button type="button" onClick={refreshPage}>
 //   Refresh Page
 // </button>
+
+
+
+// frontend in nextjs is done here 
