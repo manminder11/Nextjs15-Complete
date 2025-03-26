@@ -55,9 +55,9 @@ export default Page;
 
 // i have done here push back refresh on click
 
-// example 
+// example
 // refresh
-// code       
+// code
 // const refreshPage = () => {
 //   router.reload();
 // };
